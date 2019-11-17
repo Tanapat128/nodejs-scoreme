@@ -1,0 +1,34 @@
+{
+  "name": "nodejs-scoreme",
+  "version": "1.0.0",
+  "description": "Score Me",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "db-migrate": "db-migrate create create-score-table"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tanapat128/nodejs-scoreme.git"
+  },
+  "keywords": [
+    "score"
+  ],
+  "author": "Tanapat Choochot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tanapat128/nodejs-scoreme/issues"
+  },
+  "homepage": "https://github.com/Tanapat128/nodejs-scoreme#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "db-migrate": "^0.11.6",
+    "db-migrate-pg": "^1.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.4",
+    "pg": "^7.12.1"
+  }
+}
